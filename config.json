@@ -1,0 +1,11 @@
+{
+    "command": "/usr/libexec/java_home -V 2>&1 | sed -nE 's/.* (\/.*)$/\\1/p'",
+    "symlink_path": "~/.devtools/jdk",
+    "profile_file_path": "~/.zshrc",
+    "jdks": [
+        "~/Library/Java/JavaVirtualMachines/corretto-21.0.3/Contents/Home",
+        "~/Library/Java/JavaVirtualMachines/corretto-17.0.11/Contents/Home",
+        "~/Library/Java/JavaVirtualMachines/corretto-11.0.23/Contents/Home",
+        "~/Library/Java/JavaVirtualMachines/corretto-1.8.0_412/Contents/Home"
+    ]
+}
