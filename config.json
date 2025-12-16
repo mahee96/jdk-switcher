@@ -1,5 +1,6 @@
 {
     "command": "/usr/libexec/java_home -V 2>&1 | sed -nE 's/.* (\/.*)$/\\1/p'",
+    
     "symlink_path": "~/.devtools/jdk",
     "profile_file_path": "~/.zshrc",
     "jdks": [

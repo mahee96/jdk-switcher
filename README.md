@@ -71,3 +71,4 @@ This:
 
 - Only tested with `zsh`, but should work with any shell that supports sourcing profile files and `SIGUSR1` trap.
 - If you modify `config.json`, just re-run `./jdk --use <index>` to apply changes.
+- The `command` in config.json is for reference only, one use it to get current available JDKs on mac but still needs to populate the list manually in config.json `jdks` section.
